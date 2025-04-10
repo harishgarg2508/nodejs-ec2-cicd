@@ -1,7 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const PORT = 3000;
+const PORT = 5000;
 
 app.get('/', (req, res) => {
   res.send('Data is live go to /users to view the data!');
