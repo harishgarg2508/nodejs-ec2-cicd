@@ -63,9 +63,9 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
   .github/workflows/deploy.yml
 
 <h1>☁️ Deployment to AWS EC2</h1>
-  <h2>EC2 instance runs Docker
-  GitHub Actions uses SSH for deployment
-  Application runs on port public ip mapped everytime</h2>
+  <h2>EC2 instance runs Docker</h2>
+  <h2>GitHub Actions uses SSH for deployment</h2>
+  <h2>Application runs on port public ip mapped everytime</h2>
 
 🙌 Author
 Harish Garg
