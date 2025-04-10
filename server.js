@@ -13,7 +13,12 @@ app.get('/users', (req, res) => {
     const users = JSON.parse(data);
     res.json(users);
   });
+
 });
+
+app.get("/profile",(req,res)=>{
+  res.json({"name":"Harish Garg"});
+})
 
 app.listen(PORT, () => {
   console.log(`✅ Server running at http://localhost:${PORT}`);
