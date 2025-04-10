@@ -62,14 +62,10 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
 Workflow File:
 .github/workflows/deploy.yml
 
-☁️ Deployment to AWS EC2
-EC2 instance runs Docker
-
+<h1>☁️ Deployment to AWS EC2</h1>
+<h2>EC2 instance runs Docker
 GitHub Actions uses SSH for deployment
-
-Application runs on port 3000
-
-Optionally mapped to custom domain via DNS A record
+Application runs on port public ip mapped everytime</h2>
 
 🙌 Author
 Harish Garg
