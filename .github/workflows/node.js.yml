@@ -16,17 +16,17 @@ jobs:
       - name: Login to docker hub
         run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }} 
       - name: Build docker image
-        run: docker build -t integration/nodejs-app .
+        run: docker build -t integration/nodejs-ec2-cicd .
       - name: Publish image to docker hub
-        run: docker push integration/nodejs-app:latest
+        run: docker push integration/nodejs-ec2-cicd:latest
         
   deploy:
     needs: build
     runs-on: [aws-ec2]
     steps:
       - name: Pull image from docker hub
-        run: docker pull integration/nodejs-app:latest
+        run: docker pull integration/nodejs-ec2-cicd:latest
       - name: Delete old container
-        run: docker rm -f nodejs-app-container
+        run: docker rm -f nodejs-ec2-cicd-container
       - name: Run docker container
-        run: docker run -d -p 5000:5000 --name nodejs-app-container integration/nodejs-app
+        run: docker run -d -p 5000:5000 --name nodejs-ec2-cicd-container integration/nodejs-ec2-cicd
