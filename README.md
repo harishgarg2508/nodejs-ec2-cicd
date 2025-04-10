@@ -37,7 +37,7 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
 └── README.md
 ```
 
-<h1>📦 Technologies Used
+<h1>📦 Technologies Used</h1>
   <h2>Node.js + Express    
   <h2>Docker
   <h2>GitHub Actions for CI/CD
@@ -46,7 +46,7 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
 ![image](https://github.com/user-attachments/assets/e25a3768-d8ab-4b76-8ad2-c6618326ea08)
 
 
-<h1>🔁 CI/CD Pipeline with GitHub Actions
+<h1>🔁 CI/CD Pipeline with GitHub Actions</h1>
   Every push to the main branch triggers the following steps:
 
 🔨 Build the Docker image
@@ -73,4 +73,4 @@ Optionally mapped to custom domain via DNS A record
 
 🙌 Author
 Harish Garg
-🔗 <a href="harishgarg.tech" value="Portfolio"/>
+🔗 <a href="https://harishgarg.tech" target="_blank">Portfolio</a>
