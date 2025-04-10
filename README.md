@@ -5,7 +5,7 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
 - ✅ Docker containerization
 - ✅ GitHub Actions CI/CD pipeline
 - ✅ Automated deployment to AWS EC2
-```bash
+
 ![image](https://github.com/user-attachments/assets/608ef471-8766-4b57-bc3e-0784c0250aa4) ![image](https://github.com/user-attachments/assets/318f0aea-ad03-4829-b8e8-e79a383f5191)
 ![image](https://github.com/user-attachments/assets/8bca4c4d-9fa8-4c28-9d4d-2b5c9ade67b5)
 ![image](https://github.com/user-attachments/assets/eafb347f-da31-4c6f-8cdc-6a8a18d64517)![image](https://github.com/user-attachments/assets/026164ba-cbf5-4e78-acd7-f5a95eb486bd)
@@ -14,7 +14,7 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
 
 
 
-```
+
 
 ``` bash
 ## 📁 Project Structure
