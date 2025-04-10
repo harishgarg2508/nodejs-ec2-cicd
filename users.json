@@ -18,6 +18,7 @@
     { "id": 17, "name": "Nikhil", "role": "Backend Developer" },
     { "id": 18, "name": "Meena", "role": "Frontend Developer" },
     { "id": 19, "name": "Arjun", "role": "Product Owner" },
-    { "id": 20, "name": "Shruti", "role": "Data Analyst" }
+    { "id": 20, "name": "Arjit", "role": "Developer" },
+    { "id": 21, "name": "Shruti", "role": "Data Analyst" }
   ]
   
