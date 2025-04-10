@@ -35,6 +35,7 @@ This is a lightweight Node.js API that serves static JSON data and demonstrates 
 │   └── deploy.yml          # CI/CD GitHub Actions workflow 
 ├── package.json
 └── README.md
+```
 📦 Technologies Used
 Node.js + Express
 
@@ -46,21 +47,9 @@ AWS EC2 for hosting
 
 Custom Domain (api.harishgarg.tech)
 
-⚙️ API Endpoints
-Method	Route	Description
-GET	/	Welcome message
-GET	/users	Returns 20 mock users
-GET	/profile	Returns developer profile
-Sample JSON Response (/users):
+![image](https://github.com/user-attachments/assets/e25a3768-d8ab-4b76-8ad2-c6618326ea08)
 
-json
-Copy
-Edit
-[
-  { "id": 1, "name": "Harish", "role": "Backend Developer" },
-  { "id": 2, "name": "Anjali", "role": "Frontend Developer" },
-  ...
-]
+
 🔁 CI/CD Pipeline with GitHub Actions
 Every push to the main branch triggers the following steps:
 
